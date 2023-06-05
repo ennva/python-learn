@@ -8,6 +8,9 @@ class User:
     def change_password(self, new_password):
         self.password = new_password
 
+    def change_email(self, new_email):
+        self.email = new_email
+
     def change_job_title(self, new_job_title):
         self.current_job_title = new_job_title
 
